@@ -20,3 +20,48 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+.login-container {
+  background-color: hsla(201, 100%, 6%, 0.6);
+  padding: 50px 30px;
+  min-width: 400px;
+  width: 50%;
+  max-width: 600px;
+}
+
+.login-title {
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 40px;
+  font-size: 2.5em;
+  font-weight: normal;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  color: #fff;
+  font-weight: lighter;
+  font-size: 1.5em;
+  margin-bottom: 7px;
+}
+
+.input-group input {
+  font-size: 1.5em;
+  padding: 0.1em 0.25em;
+  background-color: hsla(201, 100%, 91%, 0.3);
+  border: 1px solid hsl(201, 100%, 6%);
+  outline: none;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: lighter;
+}
+
+.input-group input:focus {
+  border: 1px solid hsl(201, 100%, 50%);
+}
